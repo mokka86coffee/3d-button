@@ -1,0 +1,18 @@
+/*<button class="button3d"></button>*/
+.button3d {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+
+    border-radius: 50%;
+    background-image: radial-gradient(farthest-corner ellipse at top left, #dafaff, #02abef);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.button3d:active {
+    transform: scale(.98,.98);
+    background-image: radial-gradient(farthest-side ellipse at top left, #dafaff, #02abef);
+}
